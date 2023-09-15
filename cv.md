@@ -24,10 +24,12 @@ My goal is to gain knowledge in the field of front-end development.*
 
 ## Code Examples
   ```python
-  def mult(x = 3):
-      return x*(x + x)
-
-  print(mult())
+  def count_sheeps(sheep):
+      counter = 0
+      for i in sheep:
+          if i == True:
+             counter = counter + i
+      return counter
   ```
 
   ## Education
